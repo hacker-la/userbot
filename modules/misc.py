@@ -122,7 +122,7 @@ async def readme(e):
 @bot.on(events.NewMessage(outgoing=True,pattern='.repo'))
 @bot.on(events.MessageEdited(outgoing=True,pattern='.repo'))
 async def repo_is_here(e):
-        await e.edit('https://github.com/baalajimaestro/Telegram-UserBot/')
+        await e.edit('https://github.com/hacker-la/userbot.git/')
 @bot.on(events.NewMessage(outgoing=True,pattern='.supportchannel'))
 @bot.on(events.MessageEdited(outgoing=True,pattern='.supportchannel'))
 async def support_channel(e):
